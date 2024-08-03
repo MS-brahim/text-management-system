@@ -13,10 +13,10 @@ This backend system manages and analyzes large volumes of text data, including a
 
 First, run the development server:
 
-1 . **Start MongoDB**: Open a terminal window and run:
+1 . **Start MongoDB**: Open a terminal window and run or use mongodb compass:
 
 ```bash
-   mongod or use mongodb compass
+mongod 
 ```
 
 2 . **Install the required packages:**
@@ -49,14 +49,6 @@ npm run test
 - **Axios**: A promise-based HTTP client for the browser and Node.js.
 - **Cheerio**: A fast, flexible, and lean implementation of core jQuery designed specifically for the server.
 - **Swagger**: A tool for documenting APIs, enabling developers to understand and use the API efficiently.
-
-## Setup Instructions
-
-1. Clone the repository.
-2. Install dependencies: `npm install`
-3. Configure MongoDB in `config/db.js`.
-4. Start the MongoDB server.
-5. Start the application: `npm run dev`
 
 ## API Endpoints
 
